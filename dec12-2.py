@@ -29,7 +29,7 @@ def buildGraph():
                 graph[j].append(i)
     return graph, small_caves
         
-# use Djikstra's algorithm
+# use DFS
 def findPaths(graph, small_caves, start, end, path):
     
     paths = []
