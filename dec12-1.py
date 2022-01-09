@@ -30,7 +30,7 @@ def buildGraph():
 
     return graph, small_caves
         
-# use Djikstra's algorithm
+# use DFS
 def findPaths(graph, small_caves, start, end, path=[]):
     path = path + [start]
     if start == end:
